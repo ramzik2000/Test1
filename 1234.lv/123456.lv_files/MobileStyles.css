@@ -1,0 +1,737 @@
+@media only screen and (max-width: 1300px) {
+    .header {
+        position:absolute;
+        top:0;
+        left:0;
+       background-color: white;
+        height: 60px;
+        width:100%;
+    }
+
+    .left {
+        position: absolute;
+        background: white;
+        width: 430px;
+        height: 400px;
+        left: 40px;
+        top: 200px;
+
+    }
+    body{
+        background:url("pic/Summer.png");
+    }
+    .Summer_pic {
+        display:none;
+    }
+    logo_pineapple{
+        margin-left:10px;
+    }
+    pineapple_txt {
+        display: none;
+    }
+
+    About_but {
+        position: relative;
+        top: -8px;
+        margin-left: 130px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    HowItWorks_but {
+        position: relative;
+        top: -8px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    Contact_but {
+        position: relative;
+        top: -8px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    upText {
+        position: absolute;
+        width: 399px;
+        height: 44px;
+        left: 80px;
+        top: 170px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 44px;
+        color: red;
+    }
+    Subscribe_txt {
+        position: absolute;
+        font-family: Georgia;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 399px;
+        height: 44px;
+        left: 80px;
+        top: 90px;
+        color: #131821;
+
+    }
+    .hid {
+        visibility: visible;
+    }
+    Subscribe_undertxt {
+        position: absolute;
+        width: 295px;
+        height: 52px;
+        left: 80px;
+        top: 130px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        /* or 186% */
+        color: #6A707B;
+    }
+
+    .textfield {
+        position: absolute;
+        border-radius: 0px;
+        left: 80px;
+        top: 200px;
+        height: 50px;
+        width: 295px;
+        font-size: 16px;
+        background-color: lightgrey;
+        border: 1px solid #E3E3E4;
+        box-sizing: border-box;
+    }
+
+        .textfield:focus {
+            background: #FFFFFF;
+            border: 1px solid #E3E3E4;
+            box-sizing: border-box;
+            box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+        }
+
+        .textfield:hover {
+            background: #FFFFFF;
+            border: 1px solid #4066A5;
+            box-sizing: border-box;
+            box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+        }
+
+    .arrow {
+        position: absolute;
+        left: 345px;
+        top: 220px;
+        width:24px;
+        height:14px;
+    }
+
+    .checkmark {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 75px;
+        top: 270px;
+    }
+
+        .checkmark:checked {
+            background-color: blue;
+        }
+
+    IAgreeTo_txt {
+        position: absolute;
+        width: 359px;
+        height: 28px;
+        left: 120px;
+        top: 272px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #6A707B;
+    }
+
+    FootLine {
+        position: absolute;
+        
+        top: 320px;
+        width: 295px;
+        height: 1px;
+        left: 80px;
+        background: #E3E3E4;
+    }
+
+    Facebook_but {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        top: 20px;
+        display: flex;
+    }
+
+        Facebook_but:hover {
+            background: #4267B2;
+            border-color: #4267B2;
+            box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+            background-image: url("pic/fb_hover.png");
+            background-position: center;
+            background-repeat:no-repeat;
+            }
+
+        Facebook_but:active {
+            background: #2F4A80;
+            box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+            background-image: url("pic/fb_hover.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+    Instagram_but {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 90px;
+        top: 20px;
+        display: flex;
+    }
+
+    Twitter_but {
+        left: 160px;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 20px;
+        display: flex;
+    }
+
+    Youtube_but {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 230px;
+        top: 20px;
+        display: flex;
+    }
+    .victory {
+        position: relative;
+        visibility: hidden;
+        left: 70px;
+        top: 50px;
+        width: 47px;
+        height: 70px;
+    }
+        Subscribe_txt {
+        position: absolute;
+        font-family: Georgia;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 399px;
+        height: 44px;
+        left: 80px;
+        top: 90px;
+        color: #131821;
+
+    }
+    .hid {
+        visibility: visible;
+    }
+    Subscribe_undertxt {
+        position: absolute;
+        width: 295px;
+        height: 52px;
+        left: 80px;
+        top: 130px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        /* or 186% */
+        color: #6A707B;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    body {
+        background: url("pic/Summer.png");
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        background-color: white;
+        height: 60px;
+        width: 100%;
+    }
+
+    .left {
+        position: absolute;
+        background: white;
+        width: 430px;
+        height: 400px;
+        left: 150px;
+        top: 150px;
+    }
+    About_but {
+        position: relative;
+        top: -5px;
+        margin-left: 210px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    HowItWorks_but {
+        position: relative;
+        top: -5px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    Contact_but {
+        position: relative;
+        top: -5px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+    upText {
+        position: absolute;
+        width: 399px;
+        height: 44px;
+        left: 80px;
+        top: 170px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 44px;
+        color: red;
+    }
+    .victory {
+        position: relative;
+        visibility: hidden;
+        left: 70px;
+        top: 10px;
+        width: 47px;
+        height: 70px;
+    }
+    Subscribe_txt {
+        position: absolute;
+        font-family: Georgia;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 399px;
+        height: 44px;
+        left: 80px;
+        top: 100px;
+        color: #131821;
+    }
+
+    .hid {
+        visibility: visible;
+    }
+
+    Subscribe_undertxt {
+        position: absolute;
+        width: 295px;
+        height: 52px;
+        left: 80px;
+        top: 140px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        /* or 186% */
+        color: #6A707B;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        background: url("pic/Summer.png");
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        height: 60px;
+        width: 100%;
+    }
+
+    .left {
+        position: absolute;
+        background: white;
+        width: 430px;
+        height: 400px;
+        left: 250px;
+        top: 150px;
+    }
+
+    About_but {
+        position: relative;
+        top: -5px;
+        margin-left: 300px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    HowItWorks_but {
+        position: relative;
+        top: -5px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    Contact_but {
+        position: relative;
+        top: -5px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+    upText {
+        position: absolute;
+        width: 399px;
+        height: 44px;
+        left: 50px;
+        top: 220px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 44px;
+        color: red;
+    }
+    .victory {
+        position: relative;
+        visibility: hidden;
+        left: 50px;
+        top: 30px;
+        width: 47px;
+        height: 70px;
+    }
+    Subscribe_txt {
+        position: absolute;
+        font-family: Georgia;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 399px;
+        height: 44px;
+        left: 50px;
+        top: 60px;
+        color: #131821;
+    }
+
+    .hid {
+        visibility: visible;
+    }
+
+    Subscribe_undertxt {
+        position: absolute;
+        width: 295px;
+        height: 52px;
+        left: 50px;
+        top: 120px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        /* or 186% */
+        color: #6A707B;
+    }
+    .checkmark {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 45px;
+        top: 260px;
+    }
+    IAgreeTo_txt {
+        position: absolute;
+        width: 359px;
+        height: 28px;
+        left: 88px;
+        top: 263px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #6A707B;
+    }
+    .textfield {
+        position: absolute;
+        left: 50px;
+        top: 190px;
+        width: 310px;
+        height: 40px;
+        font-size: 16px;
+        background-color: lightgrey;
+        border: 1px solid #E3E3E4;
+        box-sizing: border-box;
+    }
+    .arrow {
+        position: absolute;
+        visibility: visible;
+        left: 325px;
+        top: 203px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    body {
+        background: url("pic/Summer.png");
+    }
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: white;
+        height: 60px;
+        width: 100%;
+    }
+    .checkmark {
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        left: 45px;
+        top: 230px;
+    }
+
+        .checkmark:checked {
+            background-color: blue;
+        }
+    .left {
+        position: absolute;
+        background: white;
+        width: 430px;
+        height: 400px;
+        left: 30px;
+        top: 150px;
+    }
+    About_but {
+        position: relative;
+        top: -5px;
+        margin-left: 100px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    HowItWorks_but {
+        position: relative;
+        top: -5px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+
+    Contact_but {
+        position: relative;
+        top: -5px;
+        margin-left: 40px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        color: #6A707B;
+    }
+    upText {
+        position: absolute;
+        width: 399px;
+        height: 44px;
+        left: 50px;
+        top: 190px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 44px;
+        color: red;
+    }
+    Subscribe_txt {
+        position: absolute;
+        width: 399px;
+        height: 44px;
+        left: 50px;
+        top: 80px;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 44px;
+        color: #131821;
+    }
+
+
+        Subscribe_undertxt {
+            width: 310px;
+            height: 56px;
+            left: 50px;
+            top: 90px;
+            font-family: Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 24px;
+            color: #6A707B;
+        }
+           
+            .textfield {
+                position: absolute;
+                left: 50px;
+                top: 160px;
+                width: 310px;
+                height: 40px;
+                font-size: 16px;
+                background-color: lightgrey;
+                border: 1px solid #E3E3E4;
+                box-sizing: border-box;
+            }
+    IAgreeTo_txt {
+        position: absolute;
+        width: 359px;
+        height: 28px;
+        left: 90px;
+        top: 235px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        color: #6A707B;
+    }
+    .arrow {
+        position: absolute;
+        visibility: visible;
+        left: 325px;
+        top: 173px;
+    }
+    .victory {
+        position:relative;
+        visibility: hidden;
+        left: 50px;
+        top: 60px;
+        width: 47px;
+        height: 70px;
+    }
+    FootLine {
+        position: absolute;
+        width: 300px;
+        height: 1px;
+        left: 50px;
+        top: 300px;
+        background: #E3E3E4;
+    }
+    Subscribe_txt {
+        position: absolute;
+        font-family: Georgia;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 399px;
+        height: 44px;
+        left: 50px;
+        top: 60px;
+        color: #131821;
+    }
+
+    .hid {
+        visibility: visible;
+    }
+
+    Subscribe_undertxt {
+        position: absolute;
+        width: 295px;
+        height: 52px;
+        left: 50px;
+        top: 100px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 26px;
+        /* or 186% */
+        color: #6A707B;
+    }
+}

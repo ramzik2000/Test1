@@ -1,0 +1,299 @@
+.header {
+    height: 50px;
+}
+.left{
+    width:39%;
+    height:695px;
+    float:left;
+}
+.Summer_pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url("pic/Summer.png");
+    background-position: left bottom;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+logo_pineapple {
+    margin-left: 20px;
+}
+pineapple_txt{
+position:relative;
+top:-6px;
+}
+About_but {
+position: relative;
+top: -8px;
+margin-left: 100px;
+font-family: Arial;
+font-style: normal;
+ font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+}
+HowItWorks_but {
+    position: relative;
+    top: -8px;
+    margin-left: 40px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+}
+
+Contact_but {
+    position:relative;
+    top:-8px;
+    margin-left: 40px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A707B;
+}
+a {
+    text-decoration: none;
+}
+
+.victory {
+    position: absolute;
+visibility:hidden;
+left: 100px;
+    top: 60px;
+    width: 47px;
+    height: 70px;
+}
+Subscribe_txt {
+    
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 100px;
+    top: 210px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #131821;
+}
+
+Subscribe_undertxt {
+    position: absolute;
+    width: 440px;
+    height: 56px;
+    left: 100px;
+    top: 280px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 34px;
+    color: #6A707B;
+}
+upText {
+    position: absolute;
+    width: 399px;
+    height: 44px;
+    left: 100px;
+    top: 470px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 44px;
+    color: red;
+}
+.textfield {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    background-color:lightgrey;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+}
+    .textfield:focus {
+        background: #FFFFFF;
+        border: 1px solid #E3E3E4;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 10px rgba(19, 24, 33, 0.06);
+    }
+    .textfield:hover {
+        background: #FFFFFF;
+        border: 1px solid #4066A5;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 10px rgba(19, 24, 33, 0.06);
+    }
+    
+.arrow{
+    position: absolute;
+    visibility:visible;
+    left: 460px;
+    top: 412px;
+}
+.checkmark {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 95px;
+    top: 500px;
+}
+.checkmark:checked{
+    background-color:blue;
+}
+
+IAgreeTo_txt {
+    position: absolute;
+    width: 359px;
+    height: 28px;
+    left: 141px;
+    top: 503px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A707B;
+}
+
+FootLine {
+    position: absolute;
+    width: 400px;
+    height: 1px;
+    left: 100px;
+    top: 600px;
+    background: #E3E3E4;
+}
+
+Facebook_but {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 70px;
+    top: 10px;
+    background: url("pic/fb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 2px solid #E2E3E4;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+    Facebook_but:hover {
+        background-color: #4267B2;
+        border-color: #4267B2;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/fb_hover.png");
+        background-position: center;
+    }
+    Facebook_but:active {
+        background: #2F4A80;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/fb_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+Instagram_but {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 140px;
+    top: 10px;
+    background: url("pic/ig.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 2px solid #E2E3E4;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+    Instagram_but:hover {
+        background-color: #C13584;
+        border-color: #C13584;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/ig_hover.png");
+        background-position: center;
+    }
+
+    Instagram_but:active {
+        background: #8F2762;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/ig_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+Twitter_but {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 210px;
+    top: 10px;
+    background: url("pic/tw.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 2px solid #E2E3E4;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+    Twitter_but:hover {
+        background-color: #1DA1F2;
+        border-color: #1DA1F2;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/tw_hover.png");
+        background-position: center;
+    }
+
+    Twitter_but:active {
+        background: #177FBF;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/tw_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+Youtube_but {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 280px;
+    top: 10px;
+    background: url("pic/yt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    border: 2px solid #E2E3E4;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+    Youtube_but:hover {
+        background-color: #FF0000;
+        border-color: #FF0000;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/yt_hover.png");
+        background-position: center;
+    }
+
+    Youtube_but:active {
+        background: #CC0000;
+        box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+        background-image: url("pic/yt_hover.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
